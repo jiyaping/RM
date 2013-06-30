@@ -1,0 +1,59 @@
+#存放Server信息
+server:
+  test:
+    ip: 192.168.126.128
+    user: jyp
+    password: "s9x8ogef2EjK7Qe+j0Pz3Q==\n"
+    bussiness: test
+  test1:
+    ip: 192.168.126.128
+    user: administrator
+    password: "s9x8ogef2EjK7Qe+j0Pz3Q==\n"
+    bussiness: test
+
+#存放进程信息 命名方式为： 服务器 + 进程名 例如 test_w3p , test1_goagent
+process:
+  test_feiq:
+    command: "c:\\rtest\\feiq.exe"
+    alive:
+    windows_name:
+    type: exe
+  test1_feiq:
+    command: "c:\\rtest\\feiq.exe"
+    alive:
+    windows_name:
+    type: exe
+  test_goagent:
+    command: "c:\\rtest\\goagent2013\\local\\goagent.exe"
+    type: exe
+  test1_goagent:
+    command: "c:\\rtest\\goagent2013\\local\\goagent.exe"
+    type: exe
+  test_test:
+    command: "c:\\rtest\test.bat"
+    type: bat
+  test_dnscache:
+    command: dnscache
+    type: service
+  test1_restartdns:
+    command: "c:\\rtest\\restartdns.bat"
+    type: bat
+
+#日志
+log:
+  path: log.txt
+  level: DEBUG
+
+#用户验证
+users: ["w5ZQ6WwYRVqfzWf6drzEEw==\n","bcTdUU5dFHU=\n"]
+
+#message report
+mail:
+  notify: true
+  smtp: smtp@qq.com
+  domain: qq.com
+  port: 25
+  user: 946289456
+  password: "s9x8ogef2EhAim4FLqInWA==\n"
+  receiver: [jiyaping@shenzhenair.com,A12041@shenzhenair.com,jiyaping0802@gmail.com]
+
